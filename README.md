@@ -4,6 +4,17 @@ This is an amazing image slider for the Android .
  
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
+Add it in your root build.gradle at the end of repositories:
+```
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency
 ```gradle
      implementation("com.github.nzdeveloper009:ViewSlider:1.0.0")
 ```
