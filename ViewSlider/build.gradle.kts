@@ -41,7 +41,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 from (components["release"])
                 groupId = "com.github.nzdeveloper009"
-                artifactId = "ImageCropView"
+                artifactId = "ViewSlider"
                 version = "1.0.0"
             }
         }
